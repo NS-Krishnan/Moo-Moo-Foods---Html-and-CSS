@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.featured-products {
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.product-card {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: left;
+    width: 300px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.product-card p {
+    color: #777;
+}
+
+.product-card button, .btn {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover , .btn:hover{
+    background-color: #555;
+    transform: translateY(-2px);
+}
+.product-card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.footer-container > div {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-about, .footer-links, .footer-contact, .footer-social {
+    margin-bottom: 20px;
+}
+
+.footer-links ul, .footer-social a {
+    list-style-type: none;
+    padding: 0;
+    color: #fff;
+}
+
+.footer-links ul li a, .footer-social a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-social a {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.footer-links ul li a:hover, .footer-social a:hover {
+    color: #ddd;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
